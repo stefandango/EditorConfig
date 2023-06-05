@@ -1,11 +1,11 @@
 
-#  #####                                                                       
-# #     # ##### ###### ######   ##   #    # #####    ##   #    #  ####   ####  
-# #         #   #      #       #  #  ##   # #    #  #  #  ##   # #    # #    # 
-#  #####    #   #####  #####  #    # # #  # #    # #    # # #  # #      #    # 
-#       #   #   #      #      ###### #  # # #    # ###### #  # # #  ### #    # 
-# #     #   #   #      #      #    # #   ## #    # #    # #   ## #    # #    # 
-#  #####    #   ###### #      #    # #    # #####  #    # #    #  ####   ####  
+#  #####
+# #     # ##### ###### ######   ##   #    # #####    ##   #    #  ####   ####
+# #         #   #      #       #  #  ##   # #    #  #  #  ##   # #    # #    #
+#  #####    #   #####  #####  #    # # #  # #    # #    # # #  # #      #    #
+#       #   #   #      #      ###### #  # # #    # ###### #  # # #  ### #    #
+# #     #   #   #      #      #    # #   ## #    # #    # #   ## #    # #    #
+#  #####    #   ###### #      #    # #    # #####  #    # #    #  ####   ####
 
 
 # Version: 1.0.0 (Using https://semver.org/)
@@ -153,7 +153,7 @@ csharp_style_expression_bodied_local_functions = when_on_single_line:warning
 # Pattern matching preferences
 csharp_style_pattern_matching_over_is_with_cast_check = true:warning
 csharp_style_pattern_matching_over_as_with_null_check = true:warning
-# I PREFER Switches instead of expressions 
+# I PREFER Switches instead of expressions
 csharp_style_prefer_switch_expression = false:warning
 csharp_style_prefer_pattern_matching = true:warning
 csharp_style_prefer_not_pattern = true:warning
@@ -193,8 +193,8 @@ dotnet_remove_unnecessary_suppression_exclusions = none:warning
 
 # C# Unnecessary code rules
 [*.{cs,csx,cake}]
-csharp_style_unused_value_expression_statement_preference = discard_variable:suggestion
-dotnet_diagnostic.IDE0058.severity = suggestion
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+#dotnet_diagnostic.IDE0058.severity = suggestion
 csharp_style_unused_value_assignment_preference = discard_variable:suggestion
 dotnet_diagnostic.IDE0059.severity = suggestion
 
@@ -209,7 +209,7 @@ dotnet_diagnostic.IDE0059.severity = suggestion
 # Organize using directives
 dotnet_sort_system_directives_first = true
 #FIX: rettet til true
-dotnet_separate_import_directive_groups = true 
+dotnet_separate_import_directive_groups = true
 
 # C# formatting rules
 # https://docs.microsoft.com/dotnet/fundamentals/code-analysis/style-rules/formatting-rules#c-formatting-rules
